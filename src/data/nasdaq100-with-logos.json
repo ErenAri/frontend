@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "TSLA",
+    "logo": "https://logo.clearbit.com/tesla.com"
+  },
+  {
+    "symbol": "AAPL",
+    "logo": "https://logo.clearbit.com/apple.com"
+  },
+  {
+    "symbol": "NVDA",
+    "logo": "https://logo.clearbit.com/nvidia.com"
+  },
+  {
+    "symbol": "AMZN",
+    "logo": "https://logo.clearbit.com/amazon.com"
+  },
+  {
+    "symbol": "GOOGL",
+    "logo": "https://logo.clearbit.com/google.com"
+  },
+  {
+    "symbol": "META",
+    "logo": "https://logo.clearbit.com/facebook.com"
+  },
+  {
+    "symbol": "INTC",
+    "logo": "https://logo.clearbit.com/intel.com"
+  },
+  {
+    "symbol": "ADBE",
+    "logo": "https://logo.clearbit.com/adobe.com"
+  },
+  {
+    "symbol": "PYPL",
+    "logo": "https://logo.clearbit.com/paypal.com"
+  },
+  {
+    "symbol": "MSFT",
+    "logo": "https://logo.clearbit.com/microsoft.com"
+  }
+]

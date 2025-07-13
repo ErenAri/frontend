@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "AAPL",
+    "logo": "https://logo.clearbit.com/apple.com"
+  },
+  {
+    "symbol": "MSFT",
+    "logo": "https://logo.clearbit.com/microsoft.com"
+  },
+  {
+    "symbol": "GOOGL",
+    "logo": "https://logo.clearbit.com/google.com"
+  },
+  {
+    "symbol": "AMZN",
+    "logo": "https://logo.clearbit.com/amazon.com"
+  },
+  {
+    "symbol": "META",
+    "logo": "https://logo.clearbit.com/facebook.com"
+  },
+  {
+    "symbol": "BRK.B",
+    "logo": "https://logo.clearbit.com/berkshirehathaway.com"
+  },
+  {
+    "symbol": "NVDA",
+    "logo": "https://logo.clearbit.com/nvidia.com"
+  },
+  {
+    "symbol": "V",
+    "logo": "https://logo.clearbit.com/visa.com"
+  },
+  {
+    "symbol": "JPM",
+    "logo": "https://logo.clearbit.com/jpmorganchase.com"
+  },
+  {
+    "symbol": "UNH",
+    "logo": "https://logo.clearbit.com/uhc.com"
+  }
+]
