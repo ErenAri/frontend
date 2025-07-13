@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['logo.clearbit.com'], // dış kaynaklı logolar için izin ver
+  },
   reactStrictMode: true,
 };
 

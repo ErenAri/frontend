@@ -21,6 +21,7 @@ import {
 
 import sp500 from "@/data/sp500-with-logos.json";
 import nasdaq from "@/data/nasdaq100-with-logos.json";
+import Image from "next/image";
 
 interface Prediction {
   date: string;
@@ -108,7 +109,10 @@ export default function Home() {
                   {companies.map(({ symbol, logo }) => (
                     <SelectItem key={symbol} value={symbol}>
                       <div className="flex items-center gap-2">
-                        <img src={logo} alt={symbol} className="w-5 h-5 rounded-full" />
+                        <Image
+                         src={logo} 
+                         alt={symbol} 
+                         className="w-5 h-5 rounded-full" />
                         {symbol}
                       </div>
                     </SelectItem>
@@ -168,7 +172,6 @@ export default function Home() {
           </Card>
         </div>
 
-        {/* Grafik */}
         {predictions.length > 0 && (
           <div className="w-full h-[300px] bg-zinc-800 p-4 rounded-lg shadow">
             <ResponsiveContainer width="100%" height="100%">
@@ -177,7 +180,7 @@ export default function Home() {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip
-                  formatter={(value: any) => [`$${Number(value).toFixed(2)}`, "Predicted"]}
+                  formatter={(value: number | string) => [`$${Number(value).toFixed(2)}`, "Predicted"]}
                   labelFormatter={(label) => `📅 ${label}`}
                   contentStyle={{
                     backgroundColor: "#1f2937",
